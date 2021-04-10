@@ -1,4 +1,4 @@
-# Welcome to Tech JR's Weekly Challenge!
+# Welcome to Tech JR Challenges!
 
 * [About](#about)
 * [Contributing](#contributing)
