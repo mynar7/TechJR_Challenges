@@ -6,6 +6,8 @@ How about a real-life coding problem? Whenever I used to go to restaurants with 
 
 Write a function `tipCalculator` that calculates the tip given an amount of money. Use **%15** as your tip amount. This function should return an amount that's **rounded to two decimal places**.
 
-Example: If the bill is $100.00, the tip should be $15
-Example: If the bill is $11.00, the tip should be $1.65
-Example: If the bill is $23.85, the tip should be $3.58 (_not_ 3.5775!)
+Examples:
+
+* If the bill is $100.00, the tip should be $15
+* If the bill is $11.00, the tip should be $1.65
+* If the bill is $23.85, the tip should be $3.58 (_not_ 3.5775!)
