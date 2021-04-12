@@ -1,4 +1,4 @@
-# Challenge #1: Caesar's Cypher
+# Challenge #2: Caesar's Cypher
 
 ## Problem
 

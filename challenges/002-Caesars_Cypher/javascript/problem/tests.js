@@ -1,14 +1,6 @@
 mocha.setup("bdd");
 const expect = chai.expect;
 
-function encodeCaesarCypher(str, shift) {
-  // your solution here
-}
-
-function decodeCaesarCypher(str, shift) {
-  // your solution here
-}
-
 describe("Caesar's Cypher", function () {
   const testCases = [
     {
