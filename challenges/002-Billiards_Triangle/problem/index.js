@@ -1,1 +1,2 @@
-function problem(param) {}
+function pyramid(balls) {}
+

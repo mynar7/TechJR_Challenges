@@ -13,4 +13,4 @@ For Example, a traditional billiards triangle in the game of pool has 15 balls a
 * 6 balls would make 3 levels
 * 10 balls would make 4 levels
 
-
+Each level will contain one more ball than the last level.
