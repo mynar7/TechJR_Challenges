@@ -1,9 +1,11 @@
 function changeCalculator(amt) {
   // bonus!!
-  // enforce two decimal places
+  // handle weird inputs
   // if (typeof amt !== 'number' || Number.isNaN(amt)) return false
+  // enforce two decimal places
   // if (amt.toString().includes('.') && amt.toString().split(".")[1].length > 2)
   //   return false
+  // handle negative amounts
   // if (amt < 0) return false
 
   const { dollars, change } = getChangeAndDollarsAsInts(amt)

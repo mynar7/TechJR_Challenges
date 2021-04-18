@@ -156,15 +156,15 @@ describe("Change Calculator", function () {
     expect(changeCalcReturnVal.nickels).to.eq(0)
     expect(changeCalcReturnVal.pennies).to.eq(3)
   });
-  it.skip("should return false if given number with more than two decimal places", function () {
+  it.skip("BONUS: should return false if given number with more than two decimal places", function () {
     const changeCalcReturnVal = changeCalculator(100.1234)
     expect(changeCalcReturnVal).to.be.false
   });
-  it.skip("should return false if given a negative number", function () {
+  it.skip("BONUS: should return false if given a negative number", function () {
     const changeCalcReturnVal = changeCalculator(-1)
     expect(changeCalcReturnVal).to.be.false
   });
-  it.skip("should return false if given something that isn't a number", function () {
+  it.skip("BONUS: should return false if given something that isn't a number", function () {
     expect(changeCalculator(undefined)).to.be.false
     expect(changeCalculator(null)).to.be.false
     expect(changeCalculator({})).to.be.false

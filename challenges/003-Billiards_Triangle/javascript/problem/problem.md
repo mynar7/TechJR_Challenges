@@ -1,8 +1,4 @@
-# Challenge #0
-
-![Billiards Ball Triangle](./8ballrack.jpg)
-
-[Wikipedia article on pool/billiards balls](https://en.wikipedia.org/wiki/Billiard_ball#Pool)
+# Challenge #3 Billiard's Triangle
 
 ## Problem
 
@@ -14,3 +10,11 @@ For Example, a traditional billiards triangle in the game of pool has 15 balls a
 * 10 balls would make 4 levels
 
 Each level will contain one more ball than the last level.
+
+[![Billiards Ball Triangle](./8ballrack.jpg)](https://en.wikipedia.org/wiki/Billiard_ball#Pool)
+
+## Difficulty ⭐⭐
+
+### Bonus!
+
+You've been challenged to create a solution for the Guinness World Record attempt for largest billiard ball pyramid. Write your solution so that it's efficient enough to handle a massive quantity of balls.

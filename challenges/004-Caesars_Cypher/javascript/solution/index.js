@@ -6,13 +6,16 @@ function encodeCaesarCypher(str, shift) {
   return str
     .split("")
     .map((char) => {
+      // check if char is a letter
       const indexLower = lowerLetterArr.indexOf(char);
       const indexUpper = upperLetterArr.indexOf(char);
       if (indexUpper > -1 || indexLower > -1) {
+        // rename index and grab appropriate letter set
         const [index, letterArr] =
           indexUpper > -1
             ? [indexUpper, upperLetterArr]
             : [indexLower, lowerLetterArr];
+        // right shift
         let newIndex = index + shift;
         if (newIndex >= letterArr.length) newIndex -= letterArr.length;
         return letterArr[newIndex];
@@ -37,6 +40,7 @@ function decodeCaesarCypher(str, shift) {
           indexUpper > -1
             ? [indexUpper, upperLetterArr]
             : [indexLower, lowerLetterArr];
+        // left shift
         let newIndex = index - shift;
         if (newIndex < 0) newIndex += letterArr.length;
         return letterArr[newIndex];

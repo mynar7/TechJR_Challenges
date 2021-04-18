@@ -17,6 +17,9 @@ describe("Tip Calculator", function () {
   it("$0.10 bill should give a tip of $0.02", function () {
     expect(tipCalculator(0.1)).to.eq(0.02);
   });
+  it("$0.08 bill should give a tip of $0.01", function () {
+    expect(tipCalculator(0.08)).to.eq(0.01);
+  });
   it("$123423.57 bill should give a tip of $18513.54", function () {
     expect(tipCalculator(123423.57)).to.eq(18513.54);
   });
